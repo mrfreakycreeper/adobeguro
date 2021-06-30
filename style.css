@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    color: white;
+    background-color: #a5152f;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header .logo-container{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header .menu ul{
+    display: flex;
+}
+.header .menu ul li a{
+    padding: 1rem;
+    margin: 5px;
+    border-radius: 5px;
+}
+.header .menu ul li a:hover{
+   background-color:  #640819;
+   color: rgb(199, 194, 194);
+}
+.main-body{
+    flex: 1;
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+}
+.main-body .showcase{
+    padding: 1rem;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5rem;
+    text-align: center;
+}
+.main-body .showcase .btn{
+    text-align: center  ;
+    padding: 1rem;
+    background-color: #a5152f;
+    color: white;
+    border-radius: 5px;
+}
+.main-body .showcase .btn:hover{
+    background-color:  #640819;
+    color: rgb(199, 194, 194);
+}
